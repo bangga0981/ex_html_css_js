@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      .p2 {
+        text-decoration-line: underline;
+      }
+      .p3 {
+        text-decoration-line: line-through;
+      }
+      .p4 {
+        text-shadow: 2px 2px 8px rgb(82, 82, 197);
+      }
+      .blink {
+        background-color: magenta;
+      }
+      span {
+        font-size: 25px;
+
+        color: white;
+        animation: blink 1s linear infinite;
+      }
+      @keyframes blink {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 0.5;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      p.capitalize {
+        text-transform: capitalize;
+      }
+      p.uppercase {
+        text-transform: uppercase;
+      }
+
+      p.lowercase {
+        text-transform: lowercase;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="p2">This will be underlined.</p>
+    <p class="p3">This will be striked through.</p>
+    <p class="1">This</p>
+    <div class="blink"><span>This text will have blinking effect</span></div>
+    <p class="capitalize">This will be capitalized.</p>
+    <p class="uppercase">This will be uppercase.</p>
+    <p class="lowercase">This will be lowercase.</p>
+  </body>
+</html>

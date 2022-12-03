@@ -1,0 +1,27 @@
+.myDiv {
+  font-family: Tahoma;
+}
+.giua {
+  background-color: rgb(255, 255, 248);
+  border: 1px solid black;
+  margin: 3px;
+  padding: 6px 6px 100px 6px;
+}
+.tren {
+  border: 1px solid black;
+  margin: 3px;
+  padding: 6px;
+  background-color: rgb(153, 204, 255);
+  color: white;
+}
+.cuoi {
+  border: 1px solid black;
+  margin: 3px;
+  padding: 6px;
+  color: white;
+  background-color: rgb(153, 204, 255);
+}
+body {
+  border: 1px solid black;
+  background-color: rgb(255, 255, 248);
+}
